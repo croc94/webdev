@@ -7,8 +7,11 @@ body {
   --col_grey: rgb(146, 119, 119);
   --col_butt: #00AFDB;
   --col_butt_hover: #009CC2;
+  --col_heading: #373737;
+  --col_text: #4E4E4E;
   background-color: var(--col_white);
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   text-align: center;
 }
 
@@ -33,6 +36,27 @@ body .button_class {
 
 body .button_class:hover {
   background-color: var(--col_butt_hover);
+}
+
+body .h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  color: var(--col_heading);
+  margin: 0;
+}
+
+body .text_info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 140%;
+  color: var(--col_text);
+  margin-top: 1.375rem;
+  margin-bottom: 2rem;
 }
 
 body .container {
@@ -166,5 +190,27 @@ body .container .header_block .header_block_socials .header_socials_instagram {
 
 body .container .header_block .header_block_socials .header_socials_telegram {
   background-image: url(/assets/img/telegram_fff.svg);
+}
+
+body .container article .section_1 {
+  padding-top: 7.5rem;
+  padding-bottom: 8.75rem;
+  padding-right: 16.875rem;
+  padding-left: 16.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+body .container article .section_1 .sec_1_info_block {
+  width: 25.625rem;
+  height: 14.625rem;
 }
 /*# sourceMappingURL=style.css.map */
