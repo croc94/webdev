@@ -365,4 +365,41 @@ body .container article .section_1_v2 .sec_1_info_block_v2 .text_info_v2 {
 body .container article .section_1_v2 .sec_1_info_block_v2 .button_class_v2 {
   width: 11.25rem;
 }
+
+body .container article .section_3 {
+  width: 100%;
+  height: 23.75rem;
+  background-image: url("assets/img/pexels-christina-morillo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--col_grey);
+  padding-top: 13.5625rem;
+}
+
+body .container article .section_3 .h3 {
+  color: var(--col_white);
+  margin-bottom: 1.875rem;
+}
+
+body .container article .section_3 .sec_3_form {
+  width: 26.25rem;
+  margin-left: 589px;
+}
+
+body .container article .section_3 .sec_3_form .sec_3_form_wrap .sec_3_email_btn {
+  width: 21.25rem;
+  height: 2.75rem;
+  -webkit-transform: translateX(0.25rem);
+          transform: translateX(0.25rem);
+  border-width: 0;
+  padding-left: 23px;
+  padding-bottom: 0px;
+  padding-top: 2px;
+  width: 316px;
+}
+
+body .container article .section_3 .sec_3_form .sec_3_form_wrap .button_class {
+  width: 4.125rem;
+  height: 2.875rem;
+}
 /*# sourceMappingURL=style.css.map */
