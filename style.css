@@ -49,13 +49,22 @@ body .h3 {
   margin: 0;
 }
 
+body .h5 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: var(--col_heading);
+}
+
 body .text_info {
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
   line-height: 140%;
   color: var(--col_text);
-  margin-top: 1.375rem;
+  margin-top: 1.5625rem;
   margin-bottom: 2rem;
 }
 
@@ -65,7 +74,7 @@ body .container {
 }
 
 body .container .header_block {
-  background-image: url(/assets/img/bg-image-wrapper.png);
+  background-image: url("assets/img/bg-image-wrapper.png");
   background-color: var(--col_grey);
   color: var(--col_white);
   padding-top: 1.5625rem;
@@ -119,7 +128,7 @@ body .container .header_block header .header_nav a:hover {
 body .container .header_block header .header_logo {
   height: 44px;
   width: 44px;
-  background-image: url(/assets/img/logo.png);
+  background-image: url("assets/img/logo.png");
   border-radius: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -177,19 +186,19 @@ body .container .header_block .header_block_socials .header_logo_options {
 }
 
 body .container .header_block .header_block_socials .header_socials_google {
-  background-image: url(/assets/img/mail_fff.svg);
+  background-image: url("assets/img/mail_fff.svg");
 }
 
 body .container .header_block .header_block_socials .header_socials_facebook {
-  background-image: url(/assets/img/facebook_fff.svg);
+  background-image: url("assets/img/facebook_fff.svg");
 }
 
 body .container .header_block .header_block_socials .header_socials_instagram {
-  background-image: url(/assets/img/insta_fff.svg);
+  background-image: url("assets/img/insta_fff.svg");
 }
 
 body .container .header_block .header_block_socials .header_socials_telegram {
-  background-image: url(/assets/img/telegram_fff.svg);
+  background-image: url("assets/img/telegram_fff.svg");
 }
 
 body .container article .section_1 {
@@ -212,5 +221,133 @@ body .container article .section_1 {
 body .container article .section_1 .sec_1_info_block {
   width: 25.625rem;
   height: 14.625rem;
+}
+
+body .container article .section_2 {
+  padding-top: 4.8125rem;
+  padding-bottom: 8.75rem;
+}
+
+body .container article .section_2 .sec_2_carusel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_counter {
+  text-align: right;
+  font-size: 1.125rem;
+  line-height: 140%;
+  color: var(--col_heading);
+  margin-right: 16.875rem;
+  margin-bottom: 1.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_counter span {
+  padding: 0 0.8rem;
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_counter .carusel_arrow {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-bottom: 0.125rem solid var(--col_heading);
+  border-right: 0.125rem solid var(--col_heading);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_counter .carusel_arrow:last-child {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 3000px;
+  -webkit-transform: translateX(15.5rem);
+          transform: translateX(15.5rem);
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block {
+  width: 25.5rem;
+  height: 15.25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--col_grey);
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+  margin: 0 1rem;
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block .sec_2_carusel_content {
+  opacity: 0;
+  -webkit-transition: opacity 2s linear;
+  transition: opacity 2s linear;
+  text-align: left;
+  width: 18.9375rem;
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block .sec_2_carusel_content .sec_2_carusel_logo {
+  width: 2.75rem;
+  height: 2.75rem;
+  background-image: url("assets/img/Frame_6.jpg");
+  border-radius: 50%;
+  margin-top: 2.1875rem;
+  margin-left: 8.25rem;
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block .sec_2_carusel_content .h5 {
+  margin-left: 4.625rem;
+  margin-top: 1.3125rem;
+  margin-bottom: 12px;
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block .sec_2_carusel_content p {
+  text-align: center;
+  margin-top: 0;
+  -webkit-transform: translateX(0.1875rem);
+          transform: translateX(0.1875rem);
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block:nth-child(1) {
+  background-image: url("assets/img/slider-item_1.jpg");
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block:nth-child(2) {
+  background-image: url("assets/img/slider-item_2.jpg");
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block:nth-child(3) {
+  background-image: url("assets/img/slider-item_3.jpg");
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block:nth-child(4) {
+  background-image: url("assets/img/slider-item_4.jpg");
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block:nth-child(5) {
+  background-image: url("assets/img/slider-item_5.jpg");
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block:hover {
+  background-image: none;
+  background-color: var(--col_white);
+}
+
+body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block:hover .sec_2_carusel_content {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
