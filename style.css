@@ -4,9 +4,10 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   --col_white: #fff;
-  --col_grey: rgb(146, 119, 119);
+  --col_grey: #927777;
   --col_butt: #00AFDB;
   --col_butt_hover: #009CC2;
+  --col_butt_hover_2: #02738f;
   --col_heading: #373737;
   --col_text: #4E4E4E;
   background-color: var(--col_white);
@@ -37,6 +38,27 @@ body .button_class {
 
 body .button_class:hover {
   background-color: var(--col_butt_hover);
+}
+
+body .button_ico {
+  width: 4.1875rem;
+  height: 3rem;
+  background-color: var(--col_butt_hover);
+  -webkit-transition: background-color 1s linear;
+  transition: background-color 1s linear;
+  border-width: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body .button_ico:hover {
+  background-color: var(--col_butt_hover_2);
+}
+
+body .button_ico img {
+  -webkit-transform: translate(0.1875rem, 0.0625rem);
+          transform: translate(0.1875rem, 0.0625rem);
 }
 
 body .h3 {
@@ -392,14 +414,53 @@ body .container article .section_3 .sec_3_form .sec_3_form_wrap .sec_3_email_btn
   -webkit-transform: translateX(0.25rem);
           transform: translateX(0.25rem);
   border-width: 0;
-  padding-left: 23px;
-  padding-bottom: 0px;
-  padding-top: 2px;
-  width: 316px;
+  padding-left: 1.4375rem;
+  padding-bottom: 0;
+  padding-top: 0.125rem;
+  width: 19.75rem;
 }
 
 body .container article .section_3 .sec_3_form .sec_3_form_wrap .button_class {
   width: 4.125rem;
   height: 2.875rem;
+}
+
+body .container article .section_4 {
+  padding-top: 7.625rem;
+  padding-bottom: 11.25rem;
+}
+
+body .container article .section_4 .sec_4_container {
+  margin: 0 auto;
+  width: 30.125rem;
+}
+
+body .container article .section_4 .sec_4_container .text_info {
+  margin-top: 1.25rem;
+}
+
+body .container article .section_4 .sec_4_container .sec_4_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2.4375rem;
+  gap: 1.8125rem;
+}
+
+body .container article .section_4 .sec_4_container .sec_4_form .sec_4_form_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+body .container article .section_4 .sec_4_container .sec_4_form .sec_4_form_wrap .button_class {
+  width: 11.75rem;
+  height: 3.125rem;
+  padding-left: 0;
+  padding-right: 3.8125rem;
 }
 /*# sourceMappingURL=style.css.map */
