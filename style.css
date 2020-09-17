@@ -32,6 +32,7 @@ body .button_class {
   -webkit-transition: background-color 1s linear;
   transition: background-color 1s linear;
   color: var(--col_white);
+  border-width: 0;
 }
 
 body .button_class:hover {
@@ -349,5 +350,19 @@ body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .
 
 body .container article .section_2 .sec_2_carusel .sec_2_carusel_img_container .sec_2_carusel_img_block:hover .sec_2_carusel_content {
   opacity: 1;
+}
+
+body .container article .section_1_v2 .sec_1_info_block_v2 {
+  margin-right: 6.5625rem;
+  margin-top: 3.25rem;
+}
+
+body .container article .section_1_v2 .sec_1_info_block_v2 .text_info_v2 {
+  margin-top: 1.3125rem;
+  margin-bottom: 1.875rem;
+}
+
+body .container article .section_1_v2 .sec_1_info_block_v2 .button_class_v2 {
+  width: 11.25rem;
 }
 /*# sourceMappingURL=style.css.map */
